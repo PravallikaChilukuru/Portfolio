@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raja Rajeswari Naga Pravallika Chilukuru | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">Raja Rajeswari Naga Pravallika Chilukuru</div>
+    <nav>
+      <a href="#skills">Skills</a>
+      <a href="#work">Experience</a>
+      <a href="#education">Education</a>
+      <a href="../images/Resume.pdf" target="_blank">Resume</a>
+      <!--a href="#certificate">Certificates</a-->
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </div>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="hero-card">
+        <div class="hero-text">
+          <h1>hello, <span id="typed-text"></span><span class="emoji">👋</span></h1>
+          <p class="hero-subtitle">I’m a Cloud Engineer with 4+ years of hands-on experience building secure, scalable, and cost-efficient solutions across Azure and AWS. I design reliable cloud architectures and collaborate across teams to turn complex infrastructure challenges into streamlined, high-performing systems.</p>
+          <div class="hero-ctas">
+            <a href="#contact" class="btn btn-primary">Contact</a>
+            <a href="../images/Resume.pdf" target="_blank" class="btn btn-secondary">View Resume</a>
+          </div>
+          
+        </div>
+      </div>
+        <div class="hero-image-centered">
+        <img class="profile-photo" src="../images/headshot.jpeg" alt="Profile Photo">
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="work">
+    	<h2>Experience</h2>
+    	<div class="experience-container">
+        <!-- Left Panel - Role List -->
+        <div class="experience-list">
+          <div class="experience-item active" data-role="cvs">
+            <div class="experience-item-content">
+              <h3 class="company-name-list">CVS Health</h3>
+              <p class="job-title-list">Cloud Engineer</p>
+              <p class="date-range-list">May 2025 – Present</p>
+            </div>
+          </div>
+
+          <div class="experience-item" data-role="infosys">
+            <div class="experience-item-content">
+              <h3 class="company-name-list">Infosys</h3>
+              <p class="job-title-list">Cloud Engineer</p>
+              <p class="date-range-list">Oct 2020 – Jan 2024</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Panel - Details -->
+        <div class="experience-details">
+          <!-- CVS Health Details -->
+          <div class="experience-detail-content active" data-role="cvs">
+            <div class="detail-header">
+              <h3 class="company-name-detail">CVS Health</h3>
+              <p class="date-range-detail">May 2025 – Present</p>
+            </div>
+            <h4 class="job-title-detail">Cloud Engineer</h4>
+            <p class="location-detail">📍 Woonsocket, Rhode Island, Hybrid</p>
+            <ul class="experience-bullets">
+  <ul class="experience-bullets">
+  <li>Built secure Azure healthcare infrastructure (VNets, NSGs, RBAC, Key Vault), improving uptime by 28% and ensuring HIPAA, PCI DSS, and SOC 2 compliance.</li>
+  <li>Automated infrastructure provisioning using Terraform, ARM, and Azure DevOps, reducing environment setup time by 70%.</li>
+  <li>Implemented monitoring and security logging with Azure Monitor, Application Insights, and Sentinel, improving incident response by 40%.</li>
+  <li>Optimized cloud costs through right-sizing, Reserved Instances, and auto-scaling, achieving $13K/month in savings.</li>
+  <li>Deployed AKS-based microservices with CI/CD pipelines, reducing release cycles by 36% with zero downtime.</li>
+  <li>Led migration of 1.2TB healthcare data to Azure, implementing encryption, backup, and disaster recovery strategies.</li>
+</ul>
+
+
+            </ul>
+          </div>
+
+          <!-- Infosys Details -->
+          <div class="experience-detail-content" data-role="infosys">
+            <div class="detail-header">
+              <h3 class="company-name-detail">Infosys</h3>
+              <p class="date-range-detail">Oct 2020 – Jan 2024</p>
+            </div>
+            <h4 class="job-title-detail">Cloud Engineer</h4>
+            <p class="location-detail">📍 Hyderabad, India</p>
+            <ul class="experience-bullets">
+  <li>Reduced AWS cloud spend by $70K annually using Cost Explorer, Savings Plans, and rightsizing strategies.</li>
+  <li>Architected highly available, PCI DSS & SOC 2–aligned multi-AZ AWS infrastructure.</li>
+  <li>Migrated on-prem apps and databases to AWS, improving batch processing performance by 30%.</li>
+  <li>Deployed containerized microservices on EKS with autoscaling and ALB, reducing latency by 35%.</li>
+  <li>Built event-driven workflows (Lambda, Step Functions, EventBridge), reducing T+1 processing to under 2 hours.</li>
+  <li>Implemented secure CI/CD pipelines with blue-green deployments, reducing release failures by 45%.</li>
+  <li>Strengthened security & observability with IAM, KMS, CloudTrail, and monitoring, achieving full audit readiness.</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+  </div>
+
+    <div class="section" id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-modern-grid">
+        <!-- Cloud Platforms & Services -->
+        <div class="skill-category-card">
+            <button class="skill-category-header">
+                <div class="skill-header-content">
+                    <span class="skill-icon-large">☁️</span>
+                    <h3>Cloud Platforms & Services</h3>
+                </div>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div class="skill-content">
+                <div class="skill-tags">
+                    <span class="skill-tag">AWS (EC2, S3, RDS, Lambda, VPC, ELB/ALB, Auto Scaling, CloudWatch, IAM, KMS, CloudFormation, EKS)</span>
+                    <span class="skill-tag">Azure (VMs, Blob Storage, Virtual Network, NSG, AKS, Azure Monitor, Application Insights, Key Vault, Functions, Logic Apps)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Infrastructure as Code -->
+        <div class="skill-category-card">
+            <button class="skill-category-header">
+                <div class="skill-header-content">
+                    <span class="skill-icon-large">⚙️</span>
+                    <h3>Infrastructure as Code (IaC)</h3>
+                </div>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div class="skill-content">
+                <div class="skill-tags">
+                    <span class="skill-tag">Terraform</span>
+                    <span class="skill-tag">CloudFormation</span>
+                    <span class="skill-tag">ARM Templates</span>
+                    <span class="skill-tag">Environment Drift Detection</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Containers & Orchestration -->
+        <div class="skill-category-card">
+            <button class="skill-category-header">
+                <div class="skill-header-content">
+                    <span class="skill-icon-large">🐳</span>
+                    <h3>Containers & Orchestration</h3>
+                </div>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div class="skill-content">
+                <div class="skill-tags">
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Kubernetes (AKS/EKS)</span>
+                    <span class="skill-tag">Helm</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Monitoring & Observability -->
+        <div class="skill-category-card">
+            <button class="skill-category-header">
+                <div class="skill-header-content">
+                    <span class="skill-icon-large">📊</span>
+                    <h3>Monitoring & Observability</h3>
+                </div>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div class="skill-content">
+                <div class="skill-tags">
+                    <span class="skill-tag">CloudWatch</span>
+                    <span class="skill-tag">Azure Monitor</span>
+                    <span class="skill-tag">Log Analytics</span>
+                    <span class="skill-tag">Application Insights</span>
+                    <span class="skill-tag">Prometheus</span>
+                    <span class="skill-tag">Grafana</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- CI/CD & Automation -->
+        <div class="skill-category-card">
+            <button class="skill-category-header">
+                <div class="skill-header-content">
+                    <span class="skill-icon-large">🔄</span>
+                    <h3>CI/CD & Automation</h3>
+                </div>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div class="skill-content">
+                <div class="skill-tags">
+                    <span class="skill-tag">Jenkins</span>
+                    <span class="skill-tag">Azure DevOps</span>
+                    <span class="skill-tag">GitHub Actions</span>
+                    <span class="skill-tag">GitOps Concepts</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Bash</span>
+                    <span class="skill-tag">PowerShell</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Security & Compliance -->
+        <div class="skill-category-card">
+            <button class="skill-category-header">
+                <div class="skill-header-content">
+                    <span class="skill-icon-large">🔒</span>
+                    <h3>Security & Compliance</h3>
+                </div>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div class="skill-content">
+                <div class="skill-tags">
+                    <span class="skill-tag">IAM</span>
+                    <span class="skill-tag">RBAC</span>
+                    <span class="skill-tag">KMS/Key Vault Encryption</span>
+                    <span class="skill-tag">HIPAA</span>
+                    <span class="skill-tag">PCI DSS</span>
+                    <span class="skill-tag">SOC 2</span>
+                    <span class="skill-tag">DevSecOps</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Databases & Storage -->
+        <div class="skill-category-card">
+            <button class="skill-category-header">
+                <div class="skill-header-content">
+                    <span class="skill-icon-large">💾</span>
+                    <h3>Databases & Storage</h3>
+                </div>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div class="skill-content">
+                <div class="skill-tags">
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">RDS</span>
+                    <span class="skill-tag">DynamoDB</span>
+                    <span class="skill-tag">Azure Blob Storage</span>
+                    <span class="skill-tag">S3</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Networking & Architecture -->
+        <div class="skill-category-card">
+            <button class="skill-category-header">
+                <div class="skill-header-content">
+                    <span class="skill-icon-large">🌐</span>
+                    <h3>Networking & Architecture</h3>
+                </div>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div class="skill-content">
+                <div class="skill-tags">
+                    <span class="skill-tag">VPC/VNet Design</span>
+                    <span class="skill-tag">Subnetting</span>
+                    <span class="skill-tag">NAT Gateways</span>
+                    <span class="skill-tag">Load Balancers</span>
+                    <span class="skill-tag">Hybrid Cloud Integration</span>
+                    <span class="skill-tag">Disaster Recovery</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cost & Performance Optimization -->
+        <div class="skill-category-card">
+            <button class="skill-category-header">
+                <div class="skill-header-content">
+                    <span class="skill-icon-large">⚡</span>
+                    <h3>Cost & Performance Optimization</h3>
+                </div>
+                <span class="toggle-icon">▼</span>
+            </button>
+            <div class="skill-content">
+                <div class="skill-tags">
+                    <span class="skill-tag">Auto-scaling</span>
+                    <span class="skill-tag">Reserved/Spot Instances</span>
+                    <span class="skill-tag">Performance Tuning</span>
+                    <span class="skill-tag">FinOps Awareness</span>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  	
+
+  
+  <!--div class="section" id="certificate">
+    <h2>Certificates</h2>
+    <div class="flex-container">
+      <div class="card cta-card">
+         <a href="certificate.pdf" target="_blank" class="cta-btn">View Certificates (PDF)</a>
+      </div>
+    </div>
+  </div-->
+
+  <div class="section" id="education">
+    <h2>Education</h2>
+    <div class="education-container">
+      <div class="education-card">
+        <div class="education-icon">🎓</div>
+        <div class="education-content">
+          <h3 class="degree-title">Master of Science in Information Technology</h3>
+          <p class="university-name">Clark University, Worcester, MA</p>
+          <a href="../images/Diploma.pdf" target="_blank" class="btn btn-secondary">View Degree (pdf)</a>
+          <div class="coursework-section">
+            <p class="coursework-label">Relevant Coursework:</p>
+            <div class="coursework-tags">
+              <span class="coursework-tag">Cloud Computing</span>
+              <span class="coursework-tag">Data Mining with Splunk</span>
+              <span class="coursework-tag">Information System Analysis and Design</span>
+              <span class="coursework-tag">Network Architecture and Design</span>
+              <span class="coursework-tag">Cyber Security</span>
+              <span class="coursework-tag">Intro Incident Response/Digital Forensics</span>
+              <span class="coursework-tag">Data Management for Information Technology</span>
+              <span class="coursework-tag">Industry/Creative Application of Gen AI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <div class="contact-container">
+      <div class="contact-card featured">
+        <p class="contact-label">Fastest way</p>
+        <h3 class="contact-heading">Send a quick email</h3>
+        <p class="contact-description">Click below to open a pre-filled email. Add a short message and I'll reply as soon as I can.</p>
+        <div class="contact-buttons">
+          <a href="mailto:chilukurupravallika@gmail.com" class="btn btn-primary"> Send an Email
+          </a>
+          <button class="btn btn-secondary" onclick="copyToClipboard('chilukurupravallika@gmail.com', this)">
+            <span>✓</span> Copy Email
+          </button>
+        </div>
+      </div>
+
+      <div class="contact-methods-grid">
+        <div class="contact-method">
+          <div class="contact-method-icon">✉️</div>
+          <div class="contact-method-content">
+            <h4 class="contact-method-title">Email</h4>
+            <a href="mailto:chilukurupravallika@gmail.com">chilukurupravallika@gmail.com</a>
+          </div>
+          <div class="contact-method-actions">
+          </div>
+        </div>
+
+        
+        <div class="contact-method">
+          <div class="contact-method-icon">☎️</div>
+          <div class="contact-method-content">
+            <h4 class="contact-method-title">Phone</h4>
+            <a href="tel:+17745257377">+1 774-525-7377</a>
+          </div>
+          <div class="contact-method-actions">
+            <button onclick="copyToClipboard('+1 774-525-7377', this)" class="contact-action-link">Copy</button>
+          </div>
+        </div>
+
+        
+        <div class="contact-method">
+          <div class="contact-method-icon">🔗</div>
+          <div class="contact-method-content">
+            <h4 class="contact-method-title">LinkedIn</h4>
+            <a href="https://www.linkedin.com/in/raja-chilukuru/" target="_blank" >linkedin.com/in/raja-chilukuru</a>
+          </div>
+          <div class="contact-method-actions">
+            
+            <button onclick="copyToClipboard('https://www.linkedin.com/in/raja-chilukuru/' , this) "class="contact-action-link">Copy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 Raja Rajeswari Naga Pravallika Chilukuru
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
